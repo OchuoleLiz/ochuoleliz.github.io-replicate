@@ -46,7 +46,7 @@ header {
     align-items: flex-end;
     color: white;
     padding: 60px;
-    background-image: url('./IMG/banner.jpeg');
+    background-image: url('../IMG/banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -102,27 +102,27 @@ header {
 }
 
 .gallery .gallery-1 {
-    background-image: url(./IMG/gallery-1.jpeg);
+    background-image: url(../IMG/gallery-1.jpeg);
 }
 
 .gallery .gallery-2 {
-    background-image: url(./IMG/gallery-2.jpeg);
+    background-image: url(../IMG/gallery-2.jpeg);
 }
 
 .gallery .gallery-3 {
-    background-image: url(./IMG/gallery-3.jpeg);
+    background-image: url(../IMG/gallery-3.jpeg);
 }
 
 .gallery .gallery-4 {
-    background-image: url(./IMG/gallery-4.jpeg);
+    background-image: url(../IMG/gallery-4.jpeg);
 }
 
 .gallery .gallery-5 {
-    background-image: url(./IMG/gallery-5.jpeg);
+    background-image: url(../IMG/gallery-5.jpeg);
 }
 
 .gallery .gallery-6 {
-    background-image: url(./IMG/gallery-6.jpeg);
+    background-image: url(../IMG/gallery-6.jpeg);
 }
 
 .coming-soon {
@@ -309,17 +309,12 @@ p {
 }
 
 .last-section .subscribe {
-    background-image: url(./IMG/subscribe.jpeg);
+    background-image: url(../IMG/subscribe.jpeg);
 }
 
 .last-textbox {
     margin: auto;
     width: 50%;
-}
-
-.text-input {
-    margin: 0 auto;
-    
 }
 
 hr {
