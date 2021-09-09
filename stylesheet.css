@@ -46,7 +46,7 @@ header {
     align-items: flex-end;
     color: white;
     padding: 60px;
-    background-image: url('../IMG/banner.jpeg');
+    background-image: url('./IMG/banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -102,27 +102,27 @@ header {
 }
 
 .gallery .gallery-1 {
-    background-image: url(../IMG/gallery-1.jpeg);
+    background-image: url(./IMG/gallery-1.jpeg);
 }
 
 .gallery .gallery-2 {
-    background-image: url(../IMG/gallery-2.jpeg);
+    background-image: url(./IMG/gallery-2.jpeg);
 }
 
 .gallery .gallery-3 {
-    background-image: url(../IMG/gallery-3.jpeg);
+    background-image: url(./IMG/gallery-3.jpeg);
 }
 
 .gallery .gallery-4 {
-    background-image: url(../IMG/gallery-4.jpeg);
+    background-image: url(./IMG/gallery-4.jpeg);
 }
 
 .gallery .gallery-5 {
-    background-image: url(../IMG/gallery-5.jpeg);
+    background-image: url(./IMG/gallery-5.jpeg);
 }
 
 .gallery .gallery-6 {
-    background-image: url(../IMG/gallery-6.jpeg);
+    background-image: url(./IMG/gallery-6.jpeg);
 }
 
 .coming-soon {
@@ -256,6 +256,11 @@ p {
     width: 200px;
     height: 35px;
     border-radius: 15px;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #d9b1b3;
 }
 
 .last-text {
@@ -309,7 +314,10 @@ p {
 }
 
 .last-section .subscribe {
-    background-image: url(../IMG/subscribe.jpeg);
+    background-image: url(./IMG/subscribe.jpeg);
+    background-size: 130vh;
+    overflow: hidden;
+
 }
 
 .last-textbox {
@@ -337,7 +345,43 @@ hr {
 .media-row {
     display: flex;
     flex-direction: row;
-    padding-left: 85px;
+    padding-left: 1.5rem;
     margin: auto;
     width: 30%;
+}
+
+.subscribe-img-container, .subscribe-text-container {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 45%;
+    height: 130vh;
+}
+
+.input-container {
+    margin: 0 6rem;
+}
+
+.input-container input {
+    padding: 0.8rem;
+    margin: 1rem;
+    width: 13rem;
+}
+
+.input-container button {
+    width: 9rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    margin: 0 10rem;
+}
+
+.input-container button:hover {
+    background-color: #d9b1b3;
+}
+
+.subscribe-text {
+    font-size: 0.7rem;
+    font-weight: lighter;
 }

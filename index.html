@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Replicate</title>
+    <title>About Page</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -92,7 +92,9 @@
         <div class="image-one"><img src="./IMG/slide-3.jpg" alt="bag" style="width: 300px; height: 400px;"></div>
         <div><img src="/IMG/slide-4.jpg" alt="shoe" style="width: 300px; height: 400px;"></div>
       </div>
-      <div><img src="./IMG/arrow_right.jpeg" alt="arrow_right" style="width: 30px; height: 30px;"></div>
+      <div class="row-100 slide-icon-container">
+        <i data-feather="arrow-right"></i>
+      </div>
     </section>
     <section class="sample-collection">
       <div class="collection-images">
@@ -108,23 +110,19 @@
         </div>
       </div>      
     </section>
-    <section class="last-section">
-      <div class="img-box subscribe"></div>
+    <footer class="last-section">
+      <div class="row-100">
+        <div class="img-box subscribe"></div>
       <div class="last-textbox">
         <hr>
         <div class="custom-font last-text">subscribe</div>
-        <form class="last-form">
-          <div class="row-100">
-            <div class="last-container">
-              <input type="text" placeholder="Enter a valid email address" class="text-inputs">
-            </div>
-            <div class="last-container">
-              <input type="text" placeholder="Name" class="text-inputs">
-            </div>
+        <form class="subscribe-form">
+          <div class="input-container">
+            <input type="email" placeholder="Enter a valid email address"><input type="text" placeholder=" Enter your name">
           </div>
-            <div>
-              <button type="submit" class="last-button">SUBMIT</button>
-            </div>
+          <div class="input-container">
+            <button type="submit">Submit</button>
+          </div>
         </form>
         <div>
           <h5 class="last-paragraph">Sample text. Click to select the text box. Click again <br>
@@ -135,9 +133,12 @@
           <div class="media-pad"><img src="./IMG/twitter.svg" alt="twitter logo"></div>
           <div class="insta-image"><img src="./IMG/instagram-brands.svg" alt="instagram logo"></div>
         </div>
+      </div>      
       </div>
-      
-    </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace()
+  </script>
 </body>
 </html>
