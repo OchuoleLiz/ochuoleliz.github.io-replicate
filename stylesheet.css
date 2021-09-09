@@ -175,6 +175,11 @@ header {
 .form-button {
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: purple;
 }
 
 .biography {
@@ -357,17 +362,17 @@ hr {
     height: 130vh;
 }
 
-.input-container {
+.input-box {
     margin: 0 6rem;
 }
 
-.input-container input {
+.input-box input {
     padding: 0.8rem;
     margin: 1rem;
     width: 13rem;
 }
 
-.input-container button {
+.input-box button {
     width: 9rem;
     padding: 0.5rem;
     background-color: black;
@@ -377,11 +382,16 @@ hr {
     margin: 0 10rem;
 }
 
-.input-container button:hover {
+.input-box button:hover {
     background-color: #d9b1b3;
 }
 
 .subscribe-text {
     font-size: 0.7rem;
     font-weight: lighter;
+}
+
+.slide-icon-container {
+    padding: 1.4rem;
+    justify-content: center;
 }
